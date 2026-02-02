@@ -14,8 +14,8 @@
   - Video-RAG: Visually-aligned Retrieval-Augmented Long Video Comprehension
 - **Dataset**
   - Video-MME (비디오의 길이에 따라 Short / Medium / Long으로 구분)
-- **Logit 수**: 16, 20, 24, 28, 32  
-  - logit *N*은 하나의 비디오에서 *N개의 프레임을 추출하여 모델 입력으로 활용*함을 의미함
+- **프레임 수**: 16, 20, 24, 28, 32  
+  - 프레임 수는 하나의 비디오에서 *N개의 프레임을 추출하여 모델 입력으로 활용*함을 의미함
 - **Metrics**
   - Accuracy
   - Entropy (예측 분포의 불확실성)
@@ -29,7 +29,7 @@ LLaVA-NeXT 기반 장시간 영상 이해 성능 분석을 위한 **실험·분�
 
 ### Short Videos
 
-| Logit | Accuracy | Entropy |
+| 프레임 수 | Accuracy | Entropy |
 |------:|---------:|--------:|
 | 16 | 0.73465 | 0.55269 |
 | 20 | 0.74561 | 0.52973 |
@@ -41,7 +41,7 @@ LLaVA-NeXT 기반 장시간 영상 이해 성능 분석을 위한 **실험·분�
 
 ### Medium Videos
 
-| Logit | Accuracy | Entropy |
+| 프레임 수 | Accuracy | Entropy |
 |------:|---------:|--------:|
 | 16 | 0.61111 | 0.70880 |
 | 20 | 0.60516 | 0.70985 |
@@ -52,7 +52,7 @@ LLaVA-NeXT 기반 장시간 영상 이해 성능 분석을 위한 **실험·분�
 
 ### Long Videos
 
-| Logit | Accuracy | Entropy |
+| 프레임 수 | Accuracy | Entropy |
 |------:|---------:|--------:|
 | 16 | 0.57436 | 0.72397 |
 | 20 | 0.56923 | 0.71767 |
