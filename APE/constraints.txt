@@ -1,0 +1,5 @@
+numpy==1.21.6
+scipy==1.7.3
+Cython>=0.29.36
+omegaconf==2.1.0
+fairscale==0.4.6

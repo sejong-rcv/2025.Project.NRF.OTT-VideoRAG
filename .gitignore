@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+
+# Environment & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Logs & outputs
+logs/
+*.log
+wandb/
+output/
+work_dirs/
+build/
+
+# Data & checkpoints
+data/
+datasets/
+*checkpoint*
+ckpts*
+playground/data/
+playground/*.json
+
+# ML artifacts
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Editors & OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Dev
+!.devcontainer/*
+
