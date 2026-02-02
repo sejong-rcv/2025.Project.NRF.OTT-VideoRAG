@@ -116,3 +116,55 @@ LLaVA-NeXT 기반 장시간 영상 이해 성능 분석을 위한 **실험·분�
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2411.13093}, 
 }
+@article{li2024llava,
+  title={LLaVA-NeXT-Interleave: Tackling Multi-image, Video, and 3D in Large Multimodal Models},
+  author={Li, Feng and Zhang, Renrui and Zhang, Hao and Zhang, Yuanhan and Li, Bo and Li, Wei and Ma, Zejun and Li, Chunyuan},
+  journal={arXiv preprint arXiv:2407.07895},
+  year={2024}
+}
+
+@misc{li2024llavanext-ablations,
+	title={LLaVA-NeXT: What Else Influences Visual Instruction Tuning Beyond Data?},
+	url={https://llava-vl.github.io/blog/2024-05-25-llava-next-ablations/},
+	author={Li, Bo and Zhang, Hao and Zhang, Kaichen and Guo, Dong and Zhang, Yuanhan and Zhang, Renrui and Li, Feng and Liu, Ziwei and Li, Chunyuan},
+	month={May},
+	year={2024}
+}
+
+@misc{li2024llavanext-strong,
+    title={LLaVA-NeXT: Stronger LLMs Supercharge Multimodal Capabilities in the Wild},
+    url={https://llava-vl.github.io/blog/2024-05-10-llava-next-stronger-llms/},
+    author={Li, Bo and Zhang, Kaichen and Zhang, Hao and Guo, Dong and Zhang, Renrui and Li, Feng and Zhang, Yuanhan and Liu, Ziwei and Li, Chunyuan},
+    month={May},
+    year={2024}
+}
+
+@misc{zhang2024llavanext-video,
+  title={LLaVA-NeXT: A Strong Zero-shot Video Understanding Model},
+  url={https://llava-vl.github.io/blog/2024-04-30-llava-next-video/},
+  author={Zhang, Yuanhan and Li, Bo and Liu, haotian and Lee, Yong jae and Gui, Liangke and Fu, Di and Feng, Jiashi and Liu, Ziwei and Li, Chunyuan},
+  month={April},
+  year={2024}
+}
+
+@misc{liu2024llavanext,
+    title={LLaVA-NeXT: Improved reasoning, OCR, and world knowledge},
+    url={https://llava-vl.github.io/blog/2024-01-30-llava-next/},
+    author={Liu, Haotian and Li, Chunyuan and Li, Yuheng and Li, Bo and Zhang, Yuanhan and Shen, Sheng and Lee, Yong Jae},
+    month={January},
+    year={2024}
+}
+
+@misc{liu2023improvedllava,
+      title={Improved Baselines with Visual Instruction Tuning}, 
+      author={Liu, Haotian and Li, Chunyuan and Li, Yuheng and Lee, Yong Jae},
+      publisher={arXiv:2310.03744},
+      year={2023},
+}
+
+@misc{liu2023llava,
+      title={Visual Instruction Tuning}, 
+      author={Liu, Haotian and Li, Chunyuan and Wu, Qingyang and Lee, Yong Jae},
+      publisher={NeurIPS},
+      year={2023},
+}
