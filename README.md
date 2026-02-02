@@ -1,18 +1,16 @@
-# Long Video Understanding Analysis based on LLaVA-NeXT
+# Long Video Understanding Analysis based on MLLM
 
-본 저장소는 신진연구 과제  
+본 저장소는 (1차년도) 한국연구재단 우수신진연구과제 / OTT 사용자 분석을 위한 데이터 결합 및 증식 기술의
 **「사용자 맞춤형 콘텐츠 미리보기 및 요약 자동 생성 연구를 위한 대형모델 활용 기술 개발」**  
 의 일환으로 수행된 연구 결과를 정리한 것이다.
 
-본 연구의 목적은 **장기간(Long Video) 영상 이해 환경에서 대형 멀티모달 모델의 성능 특성**을 분석하고,  
-프레임 수 증가가 정확도 및 예측 불확실성(Entropy)에 미치는 영향을 정량적으로 이해하는 데 있다.
+본 연구의 목적은 **장기간(Long Video) 영상 이해를 위한 대형 멀티모달 모델의 성능 특성**을 분석하고,  
+시각적 정보가 장기간 영상 이해 정확도 및 예측 불확실성(Entropy)에 미치는 영향을 이해하는 데 있다.
 
 ---
 
 ## Overview
 
-- **Base Framework**
-  - LLaVA-NeXT (Large Language and Vision Assistant – Next Generation)
 - **Baseline Method**
   - Video-RAG: Visually-aligned Retrieval-Augmented Long Video Comprehension
 - **Dataset**
@@ -67,8 +65,8 @@ LLaVA-NeXT 기반 장시간 영상 이해 성능 분석을 위한 **실험·분�
 ### 이미지가 노이즈로 작용하는 정성적 결과
 
 <p align="center">
-  <img src="results_image/OOX/333-2_summary.png" width="50%">
-  <img src="results_image/OOX/480-2_summary.png" width="50%">
+  <img src="results_image/OOX/333-2_summary.png" width="45%">
+  <img src="results_image/OOX/480-2_summary.png" width="45%">
 </p>
 
 ---
