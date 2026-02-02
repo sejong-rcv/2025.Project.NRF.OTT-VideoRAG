@@ -16,13 +16,60 @@
 - **Baseline Method**
   - Video-RAG: Visually-aligned Retrieval-Augmented Long Video Comprehension
 - **Dataset**
-  - Video-MME (Short / Medium / Long)
+  - Video-MME (비디오의 길이에 따라 Short / Medium / Long으로 구분)
+- **Logit 수**: 16, 20, 24, 28, 32  
+  - logit *N*은 하나의 비디오에서 *N개의 프레임을 추출하여 모델 입력으로 활용*함을 의미함
 - **Metrics**
   - Accuracy
-  - Entropy (prediction uncertainty)
+  - Entropy (예측 분포의 불확실성)
 
 본 저장소는 **모델 개발 또는 재배포 목적이 아닌**,  
 LLaVA-NeXT 기반 장시간 영상 이해 성능 분석을 위한 **실험·분석 코드 및 결과 정리**를 목표로 한다.
+
+---
+
+## Results
+
+### Short Videos
+
+| Logit | Accuracy | Entropy |
+|------:|---------:|--------:|
+| 16 | 0.73465 | 0.55269 |
+| 20 | 0.74561 | 0.52973 |
+| 24 | 0.74567 | 0.51824 |
+| 28 | 0.73904 | 0.51994 |
+| 32 | **0.75658** | **0.51074** |
+| **Average** | **0.74431** | **0.52628** |
+
+
+### Medium Videos
+
+| Logit | Accuracy | Entropy |
+|------:|---------:|--------:|
+| 16 | 0.61111 | 0.70880 |
+| 20 | 0.60516 | 0.70985 |
+| 24 | **0.63294** | 0.70393 |
+| 28 | 0.60714 | 0.70422 |
+| 32 | 0.62500 | **0.68986** |
+| **Average** | **0.61627** | **0.70533** |
+
+### Long Videos
+
+| Logit | Accuracy | Entropy |
+|------:|---------:|--------:|
+| 16 | 0.57436 | 0.72397 |
+| 20 | 0.56923 | 0.71767 |
+| 24 | 0.57179 | 0.74109 |
+| 28 | **0.58974** | 0.73106 |
+| 32 | 0.57949 | 0.72978 |
+| **Average** | **0.57692** | **0.72871** |
+
+### 이미지가 노이즈로 작용하는 정성적 결과
+
+<p align="center">
+  <img src="results_image/OOX/333-2_summary.png" width="50%">
+  <img src="results_image/OOX/480-2_summary.png" width="50%">
+</p>
 
 ---
 
