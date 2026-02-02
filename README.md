@@ -45,7 +45,7 @@ LLaVA-NeXT 기반 장시간 영상 이해 성능 분석을 위한 **실험·분�
 
 ## Upstream Projects
 
-본 연구는 아래 오픈소스 프로젝트 및 연구 결과를 기반으로 수행되었다.
+본 연구는 아래 오픈소스 프로젝트 및 연구 결과를 기반으로 진행되었습니다.
 
 - **LLaVA-NeXT**
   - GitHub: https://github.com/LLaVA-VL/LLaVA-NeXT
@@ -57,22 +57,15 @@ LLaVA-NeXT 기반 장시간 영상 이해 성능 분석을 위한 **실험·분�
 
 ## Citation
 
-본 저장소를 연구에 활용할 경우, 아래 논문들을 인용해 주시기 바란다.
+본 저장소는 아래의 연구에 도움을 받았습니다.
 
 ```bibtex
 @misc{luo2024videoragvisuallyalignedretrievalaugmentedlong,
-  title={Video-RAG: Visually-aligned Retrieval-Augmented Long Video Comprehension},
-  author={Yongdong Luo and Xiawu Zheng and Xiao Yang and Guilin Li and Haojia Lin and Jinfa Huang and Jiayi Ji and Fei Chao and Jiebo Luo and Rongrong Ji},
-  year={2024},
-  eprint={2411.13093},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2411.13093}
-}
-
-@misc{liu2024llavanext,
-  title={LLaVA-NeXT: Improved reasoning, OCR, and world knowledge},
-  author={Liu, Haotian and Li, Chunyuan and others},
-  year={2024},
-  url={https://llava-vl.github.io/blog/2024-01-30-llava-next/}
+      title={Video-RAG: Visually-aligned Retrieval-Augmented Long Video Comprehension}, 
+      author={Yongdong Luo and Xiawu Zheng and Xiao Yang and Guilin Li and Haojia Lin and Jinfa Huang and Jiayi Ji and Fei Chao and Jiebo Luo and Rongrong Ji},
+      year={2024},
+      eprint={2411.13093},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2411.13093}, 
 }
